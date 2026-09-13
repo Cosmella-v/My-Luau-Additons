@@ -12,6 +12,9 @@
 	"version": "v1.0.0",
 	"developer": "Cosmella",
 	"description": "Adds features that should be in luau",
+	"api": {"include": [
+		"include/*.hpp"
+	]},
 	"dependencies": {
 		"imes.luauapi": ">=0.1.0-beta.20"
 	},
