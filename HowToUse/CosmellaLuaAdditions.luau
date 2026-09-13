@@ -68,7 +68,6 @@ function module:getAsync(timeout, callback)
         end
         local found = _G[module.modID]
         if found then
-            tries = 0
             if found["Inited"] then
                 handle:cancel()
                 callback(found)
