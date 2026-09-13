@@ -5,4 +5,4 @@
 - sending strings to c plus plus and vice visa using a small event system
 - BetterGame:HttpGet(url) Just like roblox's luau one
 
-See [HowToUse/Example.luau](https://github.com/Cosmella-v/My-Luau-Additons/HowToUse/Example.luau) for how to use!
+See [HowToUse/Example.luau](https://github.com/Cosmella-v/My-Luau-Additons/blob/main/HowToUse/Example.luau) for how to use!
