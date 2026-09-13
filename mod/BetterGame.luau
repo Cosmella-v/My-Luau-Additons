@@ -29,7 +29,7 @@ module.create = function(Game, config)
             end)
 
             repeat
-                task.wait()
+                task.wait(1)
             until finished
 
             if err then
