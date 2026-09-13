@@ -1,0 +1,17 @@
+{
+    "luau-lsp.platform.type": "standard",
+    "luau-lsp.types.definitionFiles": {
+        "@geode": "types/geode.d.luau"
+    },
+    "luau-lsp.ignoreGlobs": [
+        "**/*.d.luau"
+    ],
+    "luau-lsp.fflags.sync": false,
+    "luau-lsp.fflags.override": {
+        "LuauTarjanChildLimit": "0",
+        "LuauTypeInferIterationLimit": "0",
+        "LuauNormalizeCacheLimit": "0",
+        "LuauTypeInferRecursionLimit": "1000",
+        "LuauVisitRecursionLimit": "1000"
+    }
+}
