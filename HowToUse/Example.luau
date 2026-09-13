@@ -10,7 +10,7 @@ this will not block the thread when used
 CosmellaLuaAdditions:getAsync(100, function(API)
     --[[
         -- this adds game:HttpGet
-        local game = API.task.create(game or {})
+        local game = API.game.create(game or {})
         -- this works like the roblox HttpGet which will block the thread until it finishes
         game:HttpGet(url, ReturnResponseObject)
     ]]
